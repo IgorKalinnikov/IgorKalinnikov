@@ -1,0 +1,204 @@
+
+.ajax {
+    text-align: center;
+}
+
+/*#json,*/
+#ajaxtext,
+#json {
+  width: 300px; /* Ширина слоя */
+margin: 7px; /* Значение отступов */
+border: 4px solid black; /* Параметры границы */
+padding: 10px; 
+display: fixed;
+}
+#json {
+  visibility: hidden;
+}
+#json.visible {
+  visibility: visible;
+}
+.ajaxcontent {
+   width: 300px; /* Ширина слоя */
+margin: 7px; /* Значение отступов */
+border: 4px solid black; /* Параметры границы */
+padding: 10px; 
+display: fixed;
+}
+.ajaxcontent.hover {
+   width: 300px; /* Ширина слоя */
+margin: 7px; /* Значение отступов */
+border: 4px solid black; /* Параметры границы */
+padding: 10px; 
+display: fixed;
+text-decoration-color: #fff;
+}
+}
+  body {
+    margin: 0;
+    background: linear-gradient(#f2f2f6, #d3d3e7);
+  }
+  
+  .container {
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .name {
+    font-family: Helvetica;
+    letter-spacing: 0.4em;
+    font-weight: 600;
+    font-size: 100px;
+    text-align: center;
+    color: #202125;
+    cursor: pointer;
+    max-width: 600px; 
+    width: 100%; 
+    outline: 3px solid;
+    outline-color: rgba(71, 126, 232,0.5);
+    outline-offset: 70px;
+    transition: all 600ms cubic-bezier(0.2, 0, 0, 0.8);
+  }
+  
+  .name:hover {
+    color: rgba(71, 126, 232, 0.7);
+    outline-color: rgba(71, 126, 232, 0);
+    outline-offset: 300px;
+  }
+
+.ajax {
+    text-align: center;
+}
+
+  body {
+    margin: 0;
+    background: linear-gradient(#f2f2f6, #d3d3e7);
+  }
+
+
+ 
+@import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300';
+
+html,
+/body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+div[class*=box] {
+  height: 33.5%;
+  width: 1024px; 
+  display: flex;
+  justify-content: center;
+
+}
+
+.box-1 { background-color: #FF6766; }
+
+.btn {
+  line-height: 50px;
+  height: 50px;
+  text-align: center;
+  width: 250px;
+  cursor: pointer;
+}
+
+/* 
+========================
+      BUTTON ONE
+========================
+*/
+.btn-one,
+.btn-two,
+.btn-three {
+  color: #FFF;
+  transition: all 0.3s;
+  position: relative;
+}
+.btn-one, 
+.btn-two,
+.btn-three span {
+  transition: all 0.3s;
+}
+.btn-one,
+.btn-two,
+.btn-three:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.3s;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-top-color: rgba(255,255,255,0.5);
+  border-bottom-color: rgba(255,255,255,0.5);
+  transform: scale(0.1, 1);
+}
+.btn-one,
+.btn-two,
+.btn-three:hover span {
+  letter-spacing: 2px;
+}
+.btn-one,
+.btn-two,
+.btn-three:hover::before {
+  opacity: 1; 
+  transform: scale(1, 1); 
+}
+.btn-one,
+.btn-two,
+.btn-three::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.3s;
+  background-color: rgba(255,255,255,0.1);
+}
+.btn-one,
+.btn-two,
+.btn-three:hover::after {
+  opacity: 0; 
+  transform: scale(0.1, 1);
+}
+.button2.hover {
+  color: red;
+}
+.body {
+    background-color: #333;
+}
+.ajax {
+    text-align: center;
+}
+.name {
+    text-align: center;
+       color:rgb(13, 73, 53) ;
+    font-size: small ;
+   
+}
+.name:hover {
+  visibility: visible ;
+   color: transparent ;
+
+
+}
+
+.users {
+    visibility: hidden;
+}

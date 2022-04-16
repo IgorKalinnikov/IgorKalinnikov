@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+   <!-- <script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>-->
+   <script src="js/jquery.min.js"></script>
+    <script src="js/js1.js"></script>
+    <script src="js/ajax.js"></script>
+ <!--    <script src="json.js"></script> -->
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Cache-control" content="no-cache">
+<meta http-equiv="petProject1" content="no-cache">
+
+
+    <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/bootstrap.css">
+
+  <title>petProject_1</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+    <a class="navbar-brand" href="#"><img src="img/3.png" alt="лого"></a>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" id="link1" href="#1" alt="первая ссылка">контент 1</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="link2" href="#2">контент 2</a>
+      </li>
+    </ul>
+  </nav>
+  
+
+ <p id="ajax"></p>
+ <div class="box-1">
+  <p class="name">
+  Привет! при нажатии на этот текст он пропадёт. но не безвозвратно! нажми на пробел и он вернётся!
+  </p>
+</div>
+<a href="#" class="btn-flip" data-back="Back" data-front="Front"></a>
+  <div id="ajaxtext"></div>
+    <table id="json">
+    <tr><td>Id</td><td>Имя</td><td>Возраст</td><tr>
+</table>
+
+  <div id="reload"></div>
+  <div class="box-1">
+
+    <div class="btn btn-one">
+      <span>HOVER ME</span>
+    </div>
+  </div>
+  <div class="ajaxcontent">
+  <button class="btn btn-outline-dark" id="btn-1">Ajax запрос на html</button>
+  <button class="btn btn-outline-dark" id="btn-2" >Подгрузка Json</button>
+        <button class="btn btn-outline-dark" id="btn-3">Ajax запрос в базу данных</button>
+       <button class="btn btn-outline-dark" id="btn-4">Ajax запрос в базу данных</button>
+</div>
+ 
+<form method="POST" action="">
+  <input name="name" type="text" placeholder="Имя"/>
+  <input name="text" type="text" placeholder="Текст"/>
+  <input type="submit" value="Отправить"/>
+ </form>
+<div id="content"></div>
+
+
+</body> 
+</html>
